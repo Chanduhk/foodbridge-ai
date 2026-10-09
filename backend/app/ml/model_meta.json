@@ -1,0 +1,32 @@
+{
+    "model_version": "1.0",
+    "training_date": "2026-10-09T16:36:11.309955",
+    "is_synthetic_data": true,
+    "training_records": 455,
+    "test_records": 150,
+    "train_period": "2026-06-11 to 2026-09-09",
+    "test_period": "2026-09-10 to 2026-10-09",
+    "features": [
+        "day_of_week",
+        "recipient_Recipient_1",
+        "recipient_Recipient_2",
+        "recipient_Recipient_3",
+        "recipient_Recipient_4",
+        "recipient_Recipient_5",
+        "category_Bakery",
+        "category_Dairy",
+        "category_Meat",
+        "category_Non-perishable",
+        "category_Produce"
+    ],
+    "metrics": {
+        "baseline": {
+            "mae": 10.46,
+            "rmse": 13.68
+        },
+        "random_forest": {
+            "mae": 4.84,
+            "rmse": 5.95
+        }
+    }
+}
